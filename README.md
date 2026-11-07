@@ -156,15 +156,6 @@ env:
 - Curriculum & imitation learning to cut training time
 - Hybrid rule-based + learned policies for edge cases
 
-## 👥 Team
-
-Made with ❤️ by **Team 4** — Reinforcement Learning course, Higher National School of Artificial Intelligence (ENSIA), May 2025.
-
-| | |
-|---|---|
-| DJAID Douaa | MANI Selma |
-| CHEBOUI Fatma Imene | MEDJRI Yasmina |
-| BOUBEKEUR Farida | |
 
 ## 📚 References
 
