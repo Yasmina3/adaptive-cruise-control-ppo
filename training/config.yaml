@@ -1,0 +1,26 @@
+env:
+  lanes_count: 4
+  vehicles_count: 20
+  duration: 60
+  policy_frequency: 15
+  controlled_vehicles: 1
+  other_vehicles_type: "highway_env.vehicle.behavior.AggressiveVehicle"
+  screen_width: 600
+  screen_height: 150
+  scaling: 5.5
+  show_trajectories: False
+  render_agent: True
+
+agent:
+  learning_rate: 0.0003
+  n_steps: 2048
+  batch_size: 64
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.0
+
+training:
+  total_timesteps: 50000
+  save_model_path: "models"
